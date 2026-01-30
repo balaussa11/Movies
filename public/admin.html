@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MovieDB — Admin Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  👑 Admin Panel
+  <div>
+    <button onclick="goHome()">🏠 Home</button>
+    <button onclick="goBrowse()">🎬 Browse</button>
+    <button onclick="logout()">🚪 Logout</button>
+  </div>
+</header>
+
+<div class="container">
+
+  <h2>Add Movie</h2>
+
+  <input id="name" placeholder="Movie name">
+  <input id="genre" placeholder="Genre">
+  <input id="year" placeholder="Year">
+  <input id="director" placeholder="Director">
+  <textarea id="description" placeholder="Description"></textarea>
+
+  <select id="type">
+    <option value="movie">🎬 Movie</option>
+    <option value="series">📺 Series</option>
+    <option value="cartoon">🧸 Cartoon</option>
+  </select>
+
+  <button onclick="addMovie()">Add Movie</button>
+
+  <h2>All Movies</h2>
+  <div class="movies-grid" id="movies"></div>
+
+</div>
+
+<script src="app.js"></script>
+<script>
+  // защита страницы
+  const role = localStorage.getItem("role");
+  if (role !== "admin") {
+    alert("Access denied");
+    window.location.href = "index.html";
+  }
+
+  loadMovies();
+</script>
+
+</body>
+</html>
