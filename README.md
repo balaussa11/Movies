@@ -175,6 +175,37 @@ A Postman collection is provided to demonstrate:
 * Failed access attempts by regular users
 * Authentication and token usage
 
+Admin Login (200 OK)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/886a419c-bc5f-4908-8380-e2b6dc43c8f5" />
+
+User Login (200 OK) 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/45490616-9720-424e-b4ce-dc83f1c983bd" />
+
+Admin Create Movie (201 Created)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3df6584a-2813-48c6-b167-d76f3e847abd" />
+
+User Create Movie (401 Unauthorized)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/88a39e0e-8645-4ae7-b6c1-c103e466f0ff" />
+
+Public Get Movies (200 OK)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d6a89f3d-4385-4aed-92a5-fa4feac6b33a" />
+
+Admin – Update Movie (200 OK)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6d576776-fc7d-4d13-877a-04748901d6aa" />
+
+User – Update Movie (403 / 401)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/92fcd116-8799-4e19-b529-68a368ee6145" />
+
+Admin – Delete Movie (200)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d598f947-eb73-4a62-861d-608ffcfc7a76" />
+
+User – Delete Movie (403 / 401)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a4d0550f-8aa6-4199-9389-a39cb2973d8f" />
+
+
+
+
+
 
 
 ---
@@ -188,4 +219,3 @@ It reflects real industry practices used in modern web applications such as IMDb
 
 
 
-Ты уже **очень сильную работу сделала**, это видно 💙
