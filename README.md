@@ -143,6 +143,7 @@ Admin features are hidden from regular users.
 ### 1️⃣ Install dependencies
 
 ```bash
+npm init -y
 npm install
 ```
 
